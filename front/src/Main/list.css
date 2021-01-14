@@ -1,0 +1,38 @@
+.itemMeta{
+  animation: fadeout 1s;
+  -moz-animation: fadeout 1s; /* Firefox */
+  -webkit-animation: fadeout 1s; /* Safari and Chrome */
+  -o-animation: fadeout 1s; /* Opera */
+}
+@keyframes fadeout {
+  from {
+      background-color: pink;
+  }
+  to {
+      background-color: transparent;
+  }
+}
+@-moz-keyframes fadeout { /* Firefox */
+  from {
+      background-color: pink;
+  }
+  to {
+      background-color: transparent;
+  }
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+  from {
+      background-color: pink;
+  }
+  to {
+      background-color: transparent;
+  }
+}
+@-o-keyframes fadeout { /* Opera */
+  from {
+      background-color: pink;
+  }
+  to {
+      background-color: transparent;
+  }
+}
